@@ -1,0 +1,356 @@
+[
+    {
+      "type": "select",
+      "key": "hair-type",
+      "question": {
+        "title": "What’s your hair type?",
+        "options": [
+          {
+            "label": "Straight",
+            "value": "straight",
+            "image": "/images/questions/hair-straight.svg"
+          },
+          {
+            "label": "Wavy",
+            "value": "wavy",
+            "image": "/images/questions/hair-wavy.svg"
+          },
+          {
+            "label": "Curly",
+            "value": "curly",
+            "image": "/images/questions/hair-curly.svg"
+          },
+          {
+            "label": "Coily",
+            "value": "coily",
+            "image": "/images/questions/hair-coily.svg"
+          }
+        ]
+      }
+    },
+    {
+      "key": "intermission",
+      "type": "intermission",
+      "question": {
+        "title": "Find out how Moerie can improve and grow your hair",
+        "subtitle": "Take our free quiz to receive personalised haircare treatment"
+      }
+    },
+    {
+      "key": "structure",
+      "type": "select",
+      "question": {
+        "title": "What's your hair structure?",
+        "options": [
+          {
+            "label": "Fine",
+            "value": "fine",
+            "image": "/images/questions/structure-fine.svg"
+          },
+          {
+            "label": "Medium",
+            "value": "medium",
+            "image": "/images/questions/structure-medium.svg"
+          },
+          {
+            "label": "Thick",
+            "value": "thick",
+            "image": "/images/questions/structure-thick.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "scalp",
+      "question": {
+        "title": "What's your scalp type?",
+        "options": [
+          {
+            "label": "Dry",
+            "value": "dry",
+            "image": "/images/questions/scalp-dry.svg"
+          },
+          {
+            "label": "Normal",
+            "value": "normal",
+            "image": "/images/questions/scalp-normal.svg"
+          },
+          {
+            "label": "Oily",
+            "value": "oily",
+            "image": "/images/questions/scalp-oily.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "typed",
+      "key": "age",
+      "question": {
+        "title": "How old are you?",
+        "subtitle": "Don't worry, it will stay only between us. ",
+        "placeholder": "Enter your age..."
+      }
+    },
+    {
+      "type": "select",
+      "key": "length",
+      "questions": {
+        "title": "How would you describe the length of your hair?",
+        "options": [
+          {
+            "label": "Long",
+            "value": "long",
+            "image": "/images/questions/hair-long.svg"
+          },
+          {
+            "label": "Mid-length",
+            "value": "mid",
+            "image": "/images/questions/hair-mid.svg"
+          },
+          {
+            "label": "Shorter then my chin",
+            "value": "short",
+            "image": "/images/questions/hair-short.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "typed",
+      "key": "growth",
+      "question": {
+        "title": "How much would you like to grow your hair?",
+        "subtitle": "Don't worry, it will stay only between us. ",
+        "placeholder": "Enter hair length..."
+      }
+    },
+    {
+      "type": "select",
+      "key": "using-dry-shampoo",
+      "question": {
+        "title": "Do you use dry shampoo?",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "image": "/images/questions/dry-shampoo-yes.svg"
+          },
+          {
+            "label": "Sometimes",
+            "value": "sometimes",
+            "image": "/images/questions/dry-shampoo-sometimes.svg"
+          },
+          {
+            "label": "Never",
+            "value": "never",
+            "image": "/images/questions/dry-shampoo-never.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "interval",
+      "question": {
+        "title": "How often do you shampoo your hair?",
+        "options": [
+          {
+            "label": "Daily",
+            "value": "daily",
+            "image": "/images/questions/interval-24.svg"
+          },
+          {
+            "label": "Every other day",
+            "value": "second-day",
+            "image": "/images/questions/interval-48.svg"
+          },
+          {
+            "label": "Twice a week or less",
+            "value": "weekly",
+            "image": "/images/questions/interval-72.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "chemicals",
+      "question": {
+        "title": "Have you had any chemical services applied to your hair recently, such as hair color, keratin, relaxers, etc?",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "image": "/images/questions/chemical-yes.svg"
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "image": "/images/questions/chemical-no.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "services",
+      "question": {
+        "title": "What kind of services did you have?",
+        "options": [
+          {
+            "label": "Hair coloring",
+            "value": "coloring",
+            "image": "/images/questions/service-coloring.svg"
+          },
+          {
+            "label": "Kreatin treatment",
+            "value": "kreatin",
+            "image": "/images/questions/service-kreatin.svg"
+          },
+          {
+            "label": "Heat treatment",
+            "value": "heat",
+            "image": "/images/questions/service-heat.svg"
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "image": "/images/questions/service-other.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "menopause",
+      "question": {
+        "title": "Are you experiencing any signs of menopause?",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "image": "/images/questions/menopause-yes.svg"
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "image": "/images/questions/menopause-no.svg"
+          },
+          {
+            "label": "Skip",
+            "value": "skip",
+            "image": "/images/questions/menopause-skip.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "more-loss",
+      "question": {
+        "title": "Are you experiencing more hair loss than usual?",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "image": "/images/questions/hair-loss-yes.svg"
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "image": "/images/questions/hair-loss-no.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "stress",
+      "question": {
+        "title": "Have you recently experienced a major stressful event\n(big move, break up, job change, surgery)?",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "image": "/images/questions/stress-yes.svg"
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "image": "/images/questions/stress-no.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "results",
+      "question": {
+        "title": "What kind of result are you looking for?",
+        "options": [
+          {
+            "label": "Hair growth",
+            "value": "growth",
+            "image": "/images/questions/results-grow.svg"
+          },
+          {
+            "label": "Hair repair",
+            "value": "repair",
+            "image": "/images/questions/results-repair.svg"
+          },
+          {
+            "label": "Anti-dandruff",
+            "value": "dandruff",
+            "image": "/images/questions/results-anti-dandruff.svg"
+          },
+          {
+            "label": "Not dry hair",
+            "value": "dry",
+            "image": "/images/questions/results-not-dry.svg"
+          },
+          {
+            "label": "Not frizzy hair",
+            "value": "frizzy",
+            "image": "/images/questions/results-not-fizzy.svg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "key": "problems",
+      "question": {
+        "title": "What are your hair problems?",
+        "options": [
+          {
+            "label": "Does not grow",
+            "value": "growth",
+            "image": "/images/questions/problem-growth.svg"
+          },
+          {
+            "label": "Damaged",
+            "value": "damaged",
+            "image": "/images/questions/problem-damaged.svg"
+          },
+          {
+            "label": "Dandruff",
+            "value": "dandruff",
+            "image": "/images/questions/problem-dandruff.svg"
+          },
+          {
+            "label": "Dry hair",
+            "value": "dry",
+            "image": "/images/questions/problem-dry.svg"
+          },
+          {
+            "label": "Frizzy hair",
+            "value": "fizzy",
+            "image": "/images/questions/problem-fizzy.svg"
+          }
+        ]
+      }
+    }
+  ]
+  
